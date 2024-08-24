@@ -21,6 +21,10 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+
+.container{
+  @apply mx-auto
+}
 html {
   font-size: clamp(13px, 2vw, 16px);
 }
