@@ -1,5 +1,18 @@
+import { BsBuildings, BsBusFront, BsChatSquareText } from "react-icons/bs";
 import bg1 from "../../public/bg_slide1.jpg";
+import card1 from "../../public/01.jpg";
+import card2 from "../../public/02.jpg";
+import card3 from "../../public/03.jpg";
+import card4 from "../../public/04.jpg";
+import card5 from "../../public/05.jpg";
 import BookingFormTabs from "./components/bookingFormTabs";
+import TabComponents from "./components/tabs";
+import Image from "next/image";
+import { IoAirplaneOutline, IoCarSportOutline } from "react-icons/io5";
+import { LuSliders, LuUsers } from "react-icons/lu";
+import { PiChatsThin } from "react-icons/pi";
+import { FaLeaf, FaRoad } from "react-icons/fa6";
+import { GiLighthouse } from "react-icons/gi";
 export default function Home() {
   return (
     <>
@@ -39,13 +52,9 @@ export default function Home() {
             <div className="lg:w-4/12 md:w-6/12 w-full p-5">
               <div className="bg-white">
                 <div className="relative z-0">
-                  <img
-                    src="https://quanticalabs.com/wp_themes4/autoride/wp-content/uploads/sites/2/2019/10/image_06.jpg"
-                    className="w-full z-0 "
-                    alt=""
-                  />
+                  <Image src={card1} className="w-full z-0 " alt="" />
                   <div className="absolute z-10 top-1/2 left-1/2 -translate-y-3/4 -translate-x-1/2 w-36 h-20 border-2 border-b-0 border-white rounded-tl-full rounded-tr-full"></div>
-                  <i className="ph-light ph-buildings absolute z-10 top-1/2 left-1/2  -translate-x-1/2  text-white text-6xl"></i>
+                  <BsBuildings className=" absolute z-10 top-1/2 left-1/2  -translate-x-1/2  text-white text-6xl" />
                   <div className="absolute w-full h-full bg-[rgba(133,140,146,0.4)] z-[1px] top-0 left-0"></div>
                 </div>
                 <div className="p-10 text-center">
@@ -67,13 +76,10 @@ export default function Home() {
             <div className="lg:w-4/12 md:w-6/12 w-full p-5">
               <div className="bg-white">
                 <div className="relative z-0">
-                  <img
-                    src="https://quanticalabs.com/wp_themes4/autoride/wp-content/uploads/sites/2/2019/10/image_07.jpg"
-                    className="w-full z-0 "
-                    alt=""
-                  />
+                  <Image src={card2} className="w-full z-0 " alt="" />
+
                   <div className="absolute z-10 top-1/2 left-1/2 -translate-y-3/4 -translate-x-1/2 w-36 h-20 border-2 border-b-0 border-white rounded-tl-full rounded-tr-full"></div>
-                  <i className="ph-light ph-airplane-tilt absolute z-10 top-1/2 left-1/2  -translate-x-1/2  text-white text-6xl"></i>
+                  <IoAirplaneOutline className=" absolute z-10 top-1/2 left-1/2  -translate-x-1/2  text-white text-6xl" />
                   <div className="absolute w-full h-full bg-[rgba(133,140,146,0.4)] z-[1px] top-0 left-0"></div>
                 </div>
                 <div className="p-10 text-center">
@@ -95,13 +101,10 @@ export default function Home() {
             <div className="lg:w-4/12 md:w-6/12 w-full p-5">
               <div className="bg-white">
                 <div className="relative z-0">
-                  <img
-                    src="https://quanticalabs.com/wp_themes4/autoride/wp-content/uploads/sites/2/2019/04/image_08.jpg"
-                    className="w-full z-0 "
-                    alt=""
-                  />
+                  <Image src={card3} className="w-full z-0 " alt="" />
+
                   <div className="absolute z-10 top-1/2 left-1/2 -translate-y-3/4 -translate-x-1/2 w-36 h-20 border-2 border-b-0 border-white rounded-tl-full rounded-tr-full"></div>
-                  <i className="ph-light ph-sliders-horizontal absolute z-10 top-1/2 left-1/2  -translate-x-1/2  text-white text-6xl"></i>
+                  <LuSliders className="absolute z-10 top-1/2 left-1/2  -translate-x-1/2  text-white text-6xl" />
                   <div className="absolute w-full h-full bg-[rgba(133,140,146,0.4)] z-[1px] top-0 left-0"></div>
                 </div>
                 <div className="p-10 text-center">
@@ -125,11 +128,8 @@ export default function Home() {
       </section>
       <section>
         <div className="flex flex-wrap items-center">
-          <img
-            src="https://quanticalabs.com/wp_themes4/autoride/wp-content/uploads/sites/2/2019/09/image_01-1.jpg?id=10425"
-            className="w-6/12"
-            alt=""
-          />
+          <Image src={card3} className="z-0 w-6/12 " alt="" />
+
           <div className="w-6/12 p-12">
             <h5 className=" text-center font-bold text-[1.125rem] text-[var(--theme)]">
               WHY CHOOSE US
@@ -147,7 +147,7 @@ export default function Home() {
             <div className="flex flex-wrap justify-around items-center">
               <div className="w-3/12">
                 <div className="w-12 h-12 rounded-full  bg-[#eaecee] relative mx-auto block">
-                  <i className="ph-light ph-shield-chevron text-6xl text-[var(--theme)] absolute bottom-1 right-1"></i>
+                  <IoCarSportOutline className="text-6xl text-[var(--theme)] absolute bottom-1 right-1" />
                 </div>
                 <h6 className="font-bold text-[1.125rem] text-[#2C3E50] mt-8 text-center">
                   Safety First
@@ -155,7 +155,7 @@ export default function Home() {
               </div>
               <div className="w-3/12">
                 <div className="w-12 h-12 rounded-full  bg-[#eaecee] relative mx-auto block">
-                  <i className="ph-light ph-bus text-6xl text-[var(--theme)] absolute bottom-1 right-1"></i>
+                  <BsBusFront className="text-6xl text-[var(--theme)] absolute bottom-1 right-1" />
                 </div>
                 <h6 className="font-bold text-[1.125rem] text-[#2C3E50] mt-8 text-center">
                   Coach Buses
@@ -163,7 +163,7 @@ export default function Home() {
               </div>
               <div className="w-3/12">
                 <div className="w-12 h-12 rounded-full  bg-[#eaecee] relative mx-auto block">
-                  <i className="ph-light ph-lighthouse text-6xl text-[var(--theme)] absolute bottom-1 right-1"></i>
+                  <GiLighthouse className="text-6xl text-[var(--theme)] absolute bottom-1 right-1" />
                 </div>
                 <h6 className="font-bold text-[1.125rem] text-[#2C3E50] mt-8 text-center">
                   Safe Haven
@@ -175,7 +175,7 @@ export default function Home() {
         <div className="flex flex-wrap items-stretch">
           <div className="w-6/12 py-12 px-28 bg-[#f6f6f6] flex flex-col justify-center items-stretch text-center">
             <div className="w-12 h-12 rounded-full  bg-[#fff] relative mx-auto block mb-10">
-              <i className="ph-light ph-chats text-6xl text-[var(--theme)] absolute bottom-1 right-1"></i>
+              <PiChatsThin className="text-6xl text-[var(--theme)] absolute bottom-1 right-1" />
             </div>
             <p className="text-[#778591] font-light text-[1.375rem] text-center mb-14">
               I couldn’t be happier with the transport you did. It was great and
@@ -187,13 +187,11 @@ export default function Home() {
               Betty Finsen
             </h6>
           </div>
-          <img
-            src="https://quanticalabs.com/wp_themes4/autoride/wp-content/uploads/sites/2/2019/10/image_02-6.jpg?id=10494"
-            className="w-6/12"
-            alt=""
-          />
+          <Image src={card1} className="w-6/12" alt="" />
         </div>
       </section>
+
+      <TabComponents />
     </>
   );
 }
