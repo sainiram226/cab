@@ -24,7 +24,7 @@ export default function Navbar() {
     return (
         <>
             <nav className="bg-gray-200 dark:bg-gray-600 py-2 px-4 w-full">
-                <div className="max-w-screen-xl flex-wrap justify-center items-center flex mx-auto">
+                <div className="container flex-wrap justify-between items-center flex mx-auto">
                     <div className="box-4 min-w-full sm:min-w-[280px] max-w-fit">
                         <a href="#" className="flex justify-start items-center gap-2">
                             <IoMapOutline className="text-[1.3rem] text-blue-700 dark:text-blue-300" />
@@ -71,7 +71,7 @@ export default function Navbar() {
                 </div>
             </nav>
             <nav className="bg-white border-gray-200 dark:bg-gray-600 border-t border-transparent dark:border-white">
-                <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <div className="container flex flex-wrap items-center justify-between mx-auto p-4">
                     <a href="/" className="flex gap-3 items-center">
                         {/* <Image src={Logo} className="h-[100px] w-full" alt="Logo" /> */}
                         <IoCarSportOutline className="self-center text-[3rem] text-[var(--theme)] font-semibold whitespace-nowrap dark:text-gray-200" />
@@ -115,7 +115,7 @@ export default function Navbar() {
                             </li>
                             <li>
                                 <a
-                                    href="#"
+                                    href="/services"
                                     className="block py-2 px-3 font-medium text-[1rem] uppercase text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-gray-200 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                                 >
                                     Services
@@ -123,15 +123,15 @@ export default function Navbar() {
                             </li>
                             <li>
                                 <a
-                                    href="#"
+                                    href="/booking"
                                     className="block py-2 px-3 font-medium text-[1rem] uppercase text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-gray-200 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                                 >
-                                    Pricing
+                                    Booking
                                 </a>
                             </li>
                             <li>
                                 <a
-                                    href="#"
+                                    href="/contact"
                                     className="block py-2 px-3 font-medium text-[1rem] uppercase text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-gray-200 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                                 >
                                     Contact

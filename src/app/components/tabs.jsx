@@ -14,7 +14,7 @@ export default function TabComponents() {
         <>
 
             <section className="py-14 border-b bg-white dark:bg-gray-200 border-zinc-300">
-                <div className="container xl:max-w-screen-xl">
+                <div className="container ">
                     <div className="flex flex-wrap justify-center items-center mb-20 ">
                         <div className={`tab-button ${activeTab === 0
                             ? "active transition-all w-1/5 border-b-2 border-[var(--theme)] flex flex-col items-center"

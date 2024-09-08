@@ -51,6 +51,16 @@ const config: Config = {
       msm: { max: "639.98px" },
       // => @media (max-width: 639px) { ... }
     },
+
+    container: {
+      screens: {
+        sm: '640px',
+        md: '728px',
+        lg: '984px',
+        xl: '1240px',
+        '2xl': '1320px',
+      },
+    },
   },
   plugins: [],
 };

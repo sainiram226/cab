@@ -54,7 +54,7 @@ export default function Home() {
               <div className="bg-white shadow-md text-black dark:bg-gray-600 dark:text-white">
                 <div className="relative z-0">
                   <Image src={card1} className="w-full z-0 " alt="" />
-                  <div className="absolute z-10 top-1/2 left-1/2 -translate-y-3/4 -translate-x-1/2 w-36 h-20 border-2 border-b-0 border-white rounded-tl-full rounded-tr-full"></div>
+                  <div className="absolute z-10 top-1/2 left-1/2 -translate-y-3/4 -translate-x-1/2 w-36 h-20 border-2 border-b-0 border-white rounded-t-full"></div>
                   <BsBuildings className=" absolute z-10 top-1/2 left-1/2  -translate-x-1/2  text-white dark:text-white text-6xl" />
                   <div className="absolute w-full h-full bg-[rgba(133,140,146,0.4)] z-[1px] top-0 left-0"></div>
                 </div>
@@ -79,7 +79,7 @@ export default function Home() {
                 <div className="relative z-0">
                   <Image src={card2} className="w-full z-0 " alt="" />
 
-                  <div className="absolute z-10 top-1/2 left-1/2 -translate-y-3/4 -translate-x-1/2 w-36 h-20 border-2 border-b-0 border-white rounded-tl-full rounded-tr-full"></div>
+                  <div className="absolute z-10 top-1/2 left-1/2 -translate-y-3/4 -translate-x-1/2 w-36 h-20 border-2 border-b-0 border-white rounded-t-full"></div>
                   <IoAirplaneOutline className=" absolute z-10 top-1/2 left-1/2  -translate-x-1/2  text-white dark:text-white text-6xl" />
                   <div className="absolute w-full h-full bg-[rgba(133,140,146,0.4)] z-[1px] top-0 left-0"></div>
                 </div>
@@ -104,7 +104,7 @@ export default function Home() {
                 <div className="relative z-0">
                   <Image src={card3} className="w-full z-0 " alt="" />
 
-                  <div className="absolute z-10 top-1/2 left-1/2 -translate-y-3/4 -translate-x-1/2 w-36 h-20 border-2 border-b-0 border-white rounded-tl-full rounded-tr-full"></div>
+                  <div className="absolute z-10 top-1/2 left-1/2 -translate-y-3/4 -translate-x-1/2 w-36 h-20 border-2 border-b-0 border-white rounded-t-full"></div>
                   <LuSliders className="absolute z-10 top-1/2 left-1/2  -translate-x-1/2  text-white dark:text-white text-6xl" />
                   <div className="absolute w-full h-full bg-[rgba(133,140,146,0.4)] z-[1px] top-0 left-0"></div>
                 </div>
@@ -198,7 +198,7 @@ export default function Home() {
 
 
       <section className="py-[100px]">
-        <div className="container xl:max-w-screen-xl">
+        <div className="container">
           <div className="flex flex-wrap gap-8">
             <div className="w-[calc(100%_/_3_-_22px)]">
               <div className="card shadow-sm">
