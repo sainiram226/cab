@@ -3,7 +3,6 @@ import banner1 from '../../../public/banner1.jpg'
 import car2 from "../../../public/car2.jpg";
 import car3 from "../../../public/car3.jpg";
 import Image from 'next/image'
-import ContactUsForm from '../components/ContactUsForm'
 import { CiCalendar, CiCircleCheck } from 'react-icons/ci';
 import { IoCheckmark } from 'react-icons/io5';
 import { AiOutlineSafetyCertificate } from 'react-icons/ai';
@@ -133,7 +132,7 @@ export default function About() {
           </div>
           <div className="w-[calc(100%_/_2_-_20px)]">
             <div className="text py-10">
-              <h4 className='text-black mb-5 dark:text-white text-[1.5rem] font-medium '>
+              <h4 className="text-black mb-5 dark:text-white text-[1.5rem] font-medium">
                 For over a dozen years we have been providing the best transport services. We offer bus, passenger transport and limousine rental.
               </h4>
 
@@ -219,11 +218,7 @@ export default function About() {
         </div>
 
       </section>
-      {/* Services steps section End */}
-
-      {/* Contact Us Form Section Component Start */}
-      <ContactUsForm />
-      {/* Contact Us Form Section Component End */}
     </>
   )
 }
+

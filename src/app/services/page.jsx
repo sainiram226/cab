@@ -74,8 +74,8 @@ export default function ServicesPage() {
                             OUR SERVICES
                         </h5>
 
-                        <p className='text-[1.3rem] text-gray-200'>
-                            Opt for Melbourne Express Cabs for luxurious taxi services and professionally endorsed drivers. Whether you're traveling to or from the airport, navigating through the city, or simply seeking a premium ride, look no further. With us, you'll receive a Price Guarantee, top-notch service, and a comfortable journey.
+                        <p className="text-[1.3rem] text-gray-200">
+                            Opt for Melbourne Express Cabs for luxurious taxi services and professionally endorsed drivers. Whether you are traveling to or from the airport, navigating through the city, or simply seeking a premium ride, look no further. With us, you will receive a Price Guarantee, top-notch service, and a comfortable journey.
                         </p>
                     </div>
 
