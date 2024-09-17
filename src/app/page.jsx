@@ -6,8 +6,8 @@ import card3 from "../../public/03.jpg";
 import car1 from "../../public/car1.jpg";
 import car2 from "../../public/car2.jpg";
 import car3 from "../../public/car3.jpg";
-import BookingFormTabs from "@/app/components/BookingFormTabs";
-import TabComponents from "@/app/components/components/Tabs";
+import BookingFormTabs from "./components/BookingFormTabs";
+import TabComponents from "./components/Tabs";
 import Image from "next/image";
 import { IoAirplaneOutline, IoCarSportOutline } from "react-icons/io5";
 import { LuSliders, LuUsers } from "react-icons/lu";
@@ -193,11 +193,8 @@ export default function Home() {
           <Image src={card1} className="w-6/12" alt="" />
         </div>
       </section>
-
       <TabComponents />
-
-
-      <section className="py-[100px]">
+      <section className="py-[100px]"> 
         <div className="container">
           <div className="flex flex-wrap gap-8">
             <div className="w-[calc(100%_/_3_-_22px)]">

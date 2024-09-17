@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
-// import Image from "next/image";
-// import Logo from "../../../public/logo.png";
+import Image from "next/image";
+import Logo from "../../../public/logo.png";
 
 import {
     IoCarSportOutline,

@@ -5,6 +5,7 @@ import React, { useState } from "react";
 import GoogleMapComponent from '../components/GoogleMap'
 import CountryCode from '../components/CountryCode'
 import banner1 from '../../../public/banner1.jpg'
+import Image from 'next/image'
 export default function BookingForm() {
     const [activeTab, setActiveTab] = useState(0);
 
